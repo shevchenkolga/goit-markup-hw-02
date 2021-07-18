@@ -1,0 +1,105 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* цвет фона основной #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+/* logo */
+.logo .logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: #000000;
+}
+/* site nav */
+.nav .nav-site {
+  color: var(--title-text-color);
+}
+.nav .nav-site:hover,
+.nav .nav-site:focus {
+  color: var(--accent-color);
+}
+.nav .nav-site.current {
+  color: var(--accent-color);
+}
+.contacts .contacts-site {
+  color: var(--primary-text-color);
+}
+.contacts .contacts-site:hover,
+.contacts .contacts-site:focus {
+  color: var(--accent-color);
+}
+.contacts .contacts-site.current {
+  color: var(--accent-color);
+}
+/* btn */
+.btn .btn-darken:hover,
+.btn .btn-darken:focus {
+  color: #f5f4fa;
+}
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.btn {
+  color: var(--title-text-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button-secondary.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+/* section-box teams */
+.section-box.teams {
+  background-color: #f5f4fa;
+}
+.bcg-card {
+  background-color: #ffffff;
+}
+/* section titles */
+.advantages-subtitle,
+.title-presentation,
+.title-presentation,
+.subtitle-names,
+.btn-darken,
+.portfolio-title {
+  color: var(--title-text-color);
+}
+/* portfolio subtitle */
+.portfolio-subtitle {
+  color: var(--primary-text-color);
+}
+/* Footer */
+.footer-section {
+  background-color: #2f303a;
+}
+.address-name {
+  color: #ffffff;
+}
+.address-contact {
+  color: #c4c4c4;
+}

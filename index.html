@@ -10,26 +10,29 @@
 <body>
     <header class="page header">
         <!--Шапка-->
-        <a href="/" class="logo">WebStudio</a>
-        <nav class="site nav">
+        <a href="/" class="logo">
+        <span class="logo-web">Web</span>
+        <span class="logo-studio">Studio</span>
+        </a>
+        <nav class="nav">
             <!-- Навигация на другие страницы -->
-            <ul class= nav-links>
-                <li><a href="/index.html" class="nav-studio">Студия</a></li>
-                <li><a href="/portfolio.html" class="nav-portfolio">Портфолио</a></li>
-                <li><a href="" class="nav-contacts">Контакты</a></li>
+            <ul class="nav-site">
+                <li><a href="/index.html" class="nav-site current">Студия</a></li>
+                <li><a href="/portfolio.html" class="nav-site">Портфолио</a></li>
+                <li><a href="" class="nav-site">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contacts">
             <!--Контакты-->
-            <li><a href="mailto:info@devstudio.com" class="contacts-email">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contacts-phone">+38 096 111 11 11</a></li>
+            <li><a href="" class="contacts-site current">info@devstudio.com</a></li>
+            <li><a href="" class="contacts-site">+38 096 111 11 11</a></li>
         </ul>
     </header>
   <main class="layout">
   <!--Как заказать услуги-->
-<section class="section-box darken">
-    <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-    <button type="button" class="btn-white">Заказать услугу</button>
+<section class="hero">
+    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+    <button type="button" class="button-primary">Заказать услугу</button>
 </section>
 <!--Преимущества-->
 <section class="section-box">
@@ -63,20 +66,20 @@
     </ul>
 </section>
 <!--Про команду-->
-<section class="section-box">
+<section class="section-box teams">
     <h2 class="title-presentation">Наша команда</h2>
     <ul>
-        <li>
+        <li class="bcg-card">
         <img src="./images/img.jpg" alt="Product Designer" width="270" />
         <h3 class="subtitle-names">Игорь Демьяненко</h3><p class="profession">Product Designer</p>
     </li>
-        <li><img src="./images/img-(1).jpg" alt="Frontend Developer" width="270" />
+        <li class="bcg-card"><img src="./images/img-(1).jpg" alt="Frontend Developer" width="270" />
         <h3 class="subtitle-names">Ольга Репина</h3><p class="profession">Frontend Developer</p>
         </li>
-        <li><img src="./images/img-(2).jpg" alt="Marketing" width="270" />
+        <li class="bcg-card"><img src="./images/img-(2).jpg" alt="Marketing" width="270" />
             <h3 class="subtitle-names">Николай Тарасов</h3><p class="profession">Marketing</p>
     </li>
-        <li>
+        <li class="bcg-card">
         <img src="./images/img-(3).jpg" alt="UI Designer" width="270" />
         <h3 class="subtitle-names">Михаил Ермаков</h3><p class="profession">UI Designer</p>
     </li>
@@ -85,8 +88,10 @@
 </main> 
 <!--Футер-->
   <footer class="footer-section">
-<a href="/" class="logo">WebStudio</a>
-<address class="address">
+<a href="/" class="logo">
+    <span class="logo-web">Web</span>
+    <span class="logo-studio">Studio</span></a>
+    <address class="address">
     <ul class="address-list">
         <li><a href="" class="address-name">г. Киев, пр-т Леси Украинки, 26</a></li>
         <li><a href="mailto:info@example.com" class="address-contact">info@example.com</a></li>
